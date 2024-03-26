@@ -1,4 +1,3 @@
-//Radu Eduard - 313CB
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -313,15 +312,7 @@ int main()
             else
             curent = cd(curent->directories, token);
         }
-        /*else
-        if(!strcmp(token,"pwd")){
-            printf("Sunt aici\n");
-        }
-        else
-        if(!strcmp(token,"find")){
-            token = strtok(NULL, " \n");
-            printf("Il cautam pe %s\n", token);
-        }*/
+        
         else
         if(!strcmp(token,"quit")){
             token = strtok(NULL, " \n");
